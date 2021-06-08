@@ -5,20 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" type='text/css' media='(min-width: 768px)'>
+    <link rel="stylesheet" href="./css/mobileStyle.css" type='text/css' media='(max-width: 767px)'>
     <link rel="icon" href="./img/headphones-solid.svg">
     <title>SONY MDR-R10 Tribute</title>
 </head>
 <body class="bg-light">
     <div id="main">
     
+        <!-- ###NAV-MOBILE### -->
+    <section class="navigation-mobile-container">
+        <ul class="navigation-mobile">
+            <li class="nav-item">
+                <a href="#title" class="nav-link text-secondary">#</a>
+            </li>
+            <li class="nav-item">
+                <a href="#history" class="nav-link text-secondary">A Brief History</a>
+            </li>
+            <li class="nav-item">
+                <a href="#build" class="nav-link text-secondary">How they are build</a>
+            </li>
+            <li class="nav-item">
+                <a href="#features" class="nav-link text-secondary">Features</a>
+            </li>
+            <li class="nav-item">
+                <a href="#sound" class="nav-link text-secondary">Sound</a>
+            </li>
+            <li class="nav-item">
+                <a href="#downsides" class="nav-link text-secondary">Downsides</a>
+            </li>
+        </ul>
+    </section>
+
     <!-- first section -->
-    <section id="home">
+    <section id="home" class="home">
         <div class="container-fluid">
             <h1 class='text-center font-weight-bold bg-light title' id="title">
                 SONY MDR-R10
             </h1>
-            <ul class="nav justify-content-center bg-light fixed-bottom">
+            <!-- ###NAV-DESKTOP### -->
+
+            <ul class="nav justify-content-center bg-light fixed-bottom navigation-desktop">
                 <li class='nav-item'>
                     <a class='nav-link text-secondary active' href="#title">#</a>
                 </li>
@@ -36,8 +63,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-secondary active" href="#downsides">Downsides</a>
-                  </li>
-              </ul>
+                </li>
+            </ul>
+
             <div class="bg-white" id='img-div'>
                 <figure>
                     <img src="./img/SonyMDRR10.jpg" class="img-fluid  rounded mx-md-auto d-block" id="image" alt="the best headphones ever made"/>
@@ -51,9 +79,11 @@
     <!-- page content -->
     <section id="page-content" class="page-content">
         <div id="tribute-info" class='row'>
-            <div class="col-2"></div>
-            <div class="col-8"><ul>
-            <li id="history"><strong>A Brief History</strong> - Being a flagship headphone, the R10 comes with its own vinyl (or possibly leather) suitcase with two lockable spring-opening clasps. The inner lining of the box is a red carpet-esque crushed velvet, with a jewelry box-like compartment to store the cable and a few accessories. Inside the box is a metal plaque with the Sony MDR-R10 moniker stamped into it. This is a serious case for a seriously expensive headphone.</li>
+            <div class="col-md-2"></div>
+            <div class="col-md-8"><ul>
+            <li id="history"><strong>A Brief History</strong> - 
+                <p>Being a flagship headphone, the R10 comes with its own vinyl (or possibly leather) suitcase with two lockable spring-opening clasps. The inner lining of the box is a red carpet-esque crushed velvet, with a jewelry box-like compartment to store the cable and a few accessories. Inside the box is a metal plaque with the Sony MDR-R10 moniker stamped into it. This is a serious case for a seriously expensive headphone.</p>
+            </li>
             <li id="build"><strong>Build</strong> -
             <p>
             The MDR-R10's design, build and materials make it a true work of art; most other headphones feel like plastic toys in comparison. The headphones with the cable included weigh about 1 pound, or a little over 400 grams. The bales and structure are made from magnesium alloy, and the pully-tensioned headband hammock and earpads are made from Greek lambskin. The inner structure of the headband is made from a shape memory alloy. The cable is double sided, ten feet long, terminated to a 1/4 inch stereo plug (with the classic Sony green poles) and is made from oxygen-free copper with a silicon inner coating and double-woven silk outer skin (meant for strength and lessening static electricity buildup in colder, dry climates). Most notable, however, are the wood earcups. They were the first earcups designed by 3D modeling, and were harvested from a 200-year-old Japanese elm (Zelkova) tree. When you see the cups you will notice they have a matte sheen, a light orange finish, and if tapped, sound hollow or almost plastic-like. This is due to the resonant properties and rigidity of the wood, as it was harvested during the winters in Japan when the trees contracted the most to rid themselves of excess moisture from sap. This tight wood pattern is evident when you closely view the cups, and the tightness maximizes the resonant properties of the Japanese elm. Also note the shape of the cups. Rather than being simply half sphere, the cups have a flat back surface, and the backs are angled away from the ears to optimize sound, along with the angled drivers.
@@ -95,7 +125,7 @@
             <p>Thank you all for your time, and have a wonderful day. </p>
             </li>
             </ul></div>
-            <div class="col-2"></div>
+            <div class="col-md-2"></div>
         </div>
         <div class="text-center">
             <p class='font-weight-bold'>Below you can find to links to resources where you can learn more about those amazing headphones</p>

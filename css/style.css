@@ -5,7 +5,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; 
+    overflow-x: hidden !important;
 }
 
 section{
@@ -22,33 +22,30 @@ img{
     font-size: clamp(20px, 10vh, 85px);
 }
 
-#home{
+.home{
     height: 100vh;
     width: 100vw;
     position: relative;
 }
 
-#home a:hover{
+.home a:hover{
     transform: translateY(-5px);
     transition: all 0.2s ease-in-out;
 }
 
 .page-content{
-    margin-top: 10px;
+    margin: 10px 35px 50px 0px;
     height: 100vh;
     width: 100vw;
-    position: relative !important;
+    overflow-x: hidden;
+    text-align: justify;
 }
 
-#side-menu{
-    top: 40%;
+.page-content ul li{
+    list-style-type: none;
+    margin-bottom: 30px;
 }
 
-#img-caption{
-    font-size: 10px;
-    color: gray
-}
-
-#bottom-space{
-    height: 50px;
+.navigation-mobile-container{
+    display: none;
 }
