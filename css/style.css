@@ -50,26 +50,4 @@ img{
     display: none;
 }
 
-.show-menu-btn{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    border: 1px solid black;
-    border-radius: 5px;
-    z-index: 1000;
-    line-height: 10px;
-    cursor: pointer;
-}
 
-.inner-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 2.5px;
-    width: 25px;
-    height: 25px;
-    background: black;
-}
