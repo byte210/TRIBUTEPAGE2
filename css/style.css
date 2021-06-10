@@ -22,7 +22,7 @@ img{
     font-size: clamp(20px, 10vh, 45px);
 }
 .page-content{
-    margin: 10px 35px 50px 0px;
+    margin: 10px 35px 10px 0px;
     overflow-x: hidden;
     text-align: justify;
 }
