@@ -38,3 +38,11 @@ img{
 .img-div{
     margin-bottom: 30px;
 }
+
+.navigation-desktop li{
+    transition: all 0.2s ease-in-out;
+}
+
+.navigation-desktop li:hover{
+    transform: translateY(-10px);
+}
